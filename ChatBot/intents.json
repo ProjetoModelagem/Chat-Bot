@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Olá", "Oi", "Bom dia", "Boa tarde", "Boa noite"],
+      "responses": ["Olá! Como posso ajudá-lo com informações sobre o Programa PIPE da FAPESP?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até mais", "Obrigado", "Valeu"],
+      "responses": ["Até logo! Se tiver mais dúvidas sobre o PIPE, estarei à disposição."]
+    },
+    {
+      "tag": "sobre_PIPE",
+      "patterns": ["O que é o PIPE?", "Como funciona o PIPE?", "Explique o PIPE"],
+      "responses": [
+        "O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas (PIPE) apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo.",
+        "Os objetivos do PIPE incluem: apoiar a pesquisa como instrumento para inovação tecnológica, promover o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, entre outros."
+      ]
+    },
+    {
+      "tag": "inscricao",
+      "patterns": ["Como me inscrevo no PIPE?", "Onde faço a inscrição?", "Quais são os passos para participar do PIPE?"],
+      "responses": [
+        "Para se inscrever no PIPE, você deve submeter uma proposta pelo sistema SAGe da FAPESP. A submissão pode ser feita a qualquer momento do ano.",
+        "O processo inclui o envio de documentos como plano de pesquisa, orçamento detalhado e informações sobre a equipe envolvida."
+      ]
+    },
+    {
+      "tag": "prazos",
+      "patterns": ["Qual é o prazo de submissão?", "Até quando posso enviar o projeto?", "Quando abre a próxima chamada do PIPE?"],
+      "responses": [
+        "O PIPE opera em fluxo contínuo, permitindo que as propostas sejam submetidas a qualquer momento do ano.",
+        "Recomenda-se verificar o site oficial da FAPESP para informações atualizadas sobre eventuais chamadas específicas."
+      ]
+    },
+    {
+      "tag": "documentos",
+      "patterns": ["Quais documentos são necessários para o PIPE?", "O que preciso enviar para o PIPE?", "Que documentos devo incluir na proposta?"],
+      "responses": [
+        "Os principais documentos exigidos incluem: plano de pesquisa detalhado, orçamento completo, informações sobre a empresa e a equipe de pesquisa.",
+        "É importante consultar as normas específicas do PIPE disponíveis no site da FAPESP para obter detalhes completos sobre a documentação necessária."
+      ]
+    },
+    {
+      "tag": "criterios_avaliacao",
+      "patterns": ["Como o projeto é avaliado?", "Quais são os critérios de avaliação?", "O que a FAPESP analisa na proposta?"],
+      "responses": [
+        "A avaliação das propostas considera critérios como: grau de inovação tecnológica, viabilidade técnica e econômica, potencial de mercado e capacidade da equipe executora.",
+        "Detalhes completos sobre os critérios de avaliação podem ser encontrados nas normas do PIPE no site da FAPESP."
+      ]
+    },
+    {
+      "tag": "financiamento",
+      "patterns": ["Quanto posso receber no PIPE?", "Qual é o valor do financiamento?", "O PIPE oferece bolsa?"],
+      "responses": [
+        "O PIPE oferece financiamento em diferentes fases:",
+        "Fase 1: destinada à demonstração da viabilidade técnica da pesquisa, com duração de até 9 meses.",
+        "Fase 2: voltada para o desenvolvimento da pesquisa inovadora, com duração de até 24 meses.",
+        "Fase 3: apoio à comercialização do produto ou processo inovador resultante das fases anteriores.",
+        "Os valores e condições específicas de financiamento podem variar; recomenda-se consultar as normas atualizadas no site da FAPESP."
+      ]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["Onde posso tirar dúvidas?", "Existe suporte para quem quer submeter um projeto?", "Quem pode me ajudar com o PIPE?"],
+      "responses": [
+        "Para esclarecer dúvidas, você pode consultar a seção de perguntas frequentes no site do PIPE.",
+        "Além disso, a FAPESP oferece canais de atendimento para suporte aos proponentes.",
+        "Participar de eventos e workshops promovidos pela FAPESP também pode ser útil para entender melhor o processo de submissão."
+      ]
+    },
+    {
+      "tag": "normas_PIPE",
+      "patterns": ["Quais são as normas do PIPE?", "Onde encontro as regras do PIPE?", "Como acessar as diretrizes do PIPE?"],
+      "responses": [
+        "As normas detalhadas do PIPE estão disponíveis no site oficial da FAPESP, na seção dedicada ao programa.",
+        "É fundamental ler atentamente as normas antes de preparar e submeter sua proposta."
+      ]
+    },
+    {
+      "tag": "fluxo_continuo",
+      "patterns": ["O PIPE tem chamadas abertas?", "Posso enviar minha proposta a qualquer momento?", "Como funciona o fluxo de submissão do PIPE?"],
+      "responses": [
+        "O PIPE adota um sistema de fluxo contínuo, permitindo que as propostas sejam submetidas em qualquer período do ano.",
+        "Isso oferece flexibilidade para que as empresas enviem suas propostas no momento mais adequado ao seu planejamento."
+      ]
+    },
+    {
+      "tag": "SAGe",
+      "patterns": ["O que é o SAGe?", "Como acesso o SAGe?", "Para que serve o SAGe?"],
+      "responses": [
+        "O SAGe é o Sistema de Apoio à Gestão da FAPESP, utilizado para a submissão de propostas e acompanhamento de projetos.",
+        "Para submeter sua proposta ao PIPE, é necessário realizar o cadastro e seguir os procedimentos indicados no SAGe."
+      ]
+    },
+    {
+      "tag": "PIPE_empresas",
+      "patterns": ["Que empresas podem participar do PIPE?", "Minha empresa é elegível para o PIPE?", "Quais são os requisitos para empresas no PIPE?"],
+      "responses": [
+        "O PIPE é destinado a micro, pequenas e médias empresas sediadas no Estado de São Paulo.",
+        "A empresa deve demonstrar capacidade de executar a pesquisa proposta e cumprir os requisitos estabelecidos nas normas do programa."
+      ]
+    },
+    {
+      "tag": "PIPE_invest",
+      "patterns": ["O que é o PIPE Invest?", "Como funciona o PIPE Invest?", "Minha empresa pode participar do PIPE Invest?"],
+      "responses": [
+        "O PIPE Invest é uma iniciativa que oferece fundos suplementares para projetos de sucesso comprovado na Fase 2 do PIPE.",
+        "O objetivo é apoiar a inserção no mercado de inovações desenvolvidas, facilitando o acesso a investimentos adicionais."
+      ]
+    },
+    {
+      "tag": "PIPE_empreendedor",
+      "patterns": ["O que é o PIPE Empreendedor?", "Como funciona o PIPE Empreendedor?", "Quais são os benefícios do PIPE Empreendedor?"],
+      "responses": [
+        "O PIPE Empreendedor é uma iniciativa da FAPESP que oferece suporte a pesquisadores que desejam transformar suas pesquisas em negócios inovadores.",
+        "O programa fornece capacitação empresarial, mentoria especializada e acesso a networking com investidores e parceiros estratégicos.",
+        "Os benefícios incluem: treinamento em empreendedorismo, orientação para desenvolvimento de negócios e acesso a oportunidades de financiamento e aceleração de startups."
+      ]
+    }
+  ]
+}
